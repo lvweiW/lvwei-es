@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: lvwei-es-jd
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200
+      username:
+      password:
+  thymeleaf:
+    cache: false
